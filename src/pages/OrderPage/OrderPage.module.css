@@ -1,0 +1,89 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  margin:48px 0;
+}
+
+.photo{
+  width:40%;
+  margin-right: 48px;
+}
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap:18px;
+  flex-grow: 1;
+}
+
+.name{
+  font-size: 26px;
+  font-weight: bold;
+  color:rgb(201, 85, 18);
+}
+
+.stockStatus {
+  color: red;
+}
+
+.stockStatus.inStock{
+  color:green;
+}
+
+.price{
+  font-size: 26px;
+  font-weight: bold;
+  color:black;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.details {
+  margin-top: 48px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.tab{
+  padding: 12px 21px;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tab.active {
+  font-weight: bold;
+}
+
+.tab:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.sections {
+  padding: 21px;
+}
+
+
+.detail{
+  font-size: 18px;
+  line-height: 1;
+}
+.detailName{
+  font-weight: bold;
+}

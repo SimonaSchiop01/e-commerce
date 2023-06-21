@@ -1,0 +1,44 @@
+.button{
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: rgb(201, 85, 18);
+  padding: 12px 21px;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 19px;
+  cursor:pointer;
+  color: white;
+  text-align: center;
+}
+
+.icon{
+  font-size: 32px;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.button.full{
+  width:100%;
+}
+
+.disabled{
+  background-color: rgb(111, 110, 110);
+  cursor: not-allowed;
+}
+
+.button:not(.disabled):hover {
+  background-color: rgb(121, 55, 17);
+}
+.button.noBackground:hover{
+  background-color: transparent;
+  color: rgb(121, 55, 17);
+}
+.noBackground{
+  background-color: transparent;
+  color: black;
+}
+
+.button.noBackground .icon{
+  color:rgb(201, 85, 18);
+}

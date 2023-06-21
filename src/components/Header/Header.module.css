@@ -1,0 +1,44 @@
+.topBar{
+  background-color: rgb(18, 118, 85);
+  display: block;
+  width:100%;
+}
+
+
+.menu, .navigation{
+  padding: 24px 0;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menuItem {
+  display: inline-block;
+  margin-left:48px;
+  color:white;
+}
+
+.menuItemIcon {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.menuItemText{
+  display: inline-block;
+  line-height: 28px;
+  vertical-align: bottom;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid white;
+}
+
+.navigationItem{
+  color:white;
+}

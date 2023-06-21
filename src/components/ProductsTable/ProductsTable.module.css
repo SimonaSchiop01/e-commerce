@@ -1,0 +1,25 @@
+table{
+  border-collapse: collapse;
+  width:100%;
+  text-align: center;
+}
+
+td, th{
+  padding: 12px 24px;
+}
+
+tr{
+  background-color: rgb(178, 178, 178);
+  color:black;
+  border-bottom: 1px solid rgb(189, 189, 189);
+
+}
+
+tr.tableHeader{
+  background-color: rgb(49, 49, 49);
+  color: white
+}
+
+tr img{
+  height:64px;
+}

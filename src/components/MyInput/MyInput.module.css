@@ -1,0 +1,33 @@
+.MyInput{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.label{
+  width:300px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+}
+.req{
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  color: rgb(216, 75, 75);
+}
+
+input{
+  flex-basis: 1px;
+  flex-grow: 1;
+  outline: none;
+  border: 1px solid rgb(150, 150, 150);
+  box-shadow: none;
+  padding: 6px 18px;
+  line-height: 2;
+  font-size: 14px;
+  border-radius: 20px;
+}

@@ -1,0 +1,46 @@
+.filters{
+  width:240px;
+}
+
+.title{
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+}
+
+.criteria{
+  display: block;
+  margin:21px 0;
+}
+
+.criteriaHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  color:rgb(201, 85, 18);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.criteriaBtn{
+  cursor: pointer;
+}
+
+.criteriaOptions{
+  padding-top: 4px;
+}
+
+.criteriaOption{
+  margin: 12px 0;
+  font-size: 14px;
+  color:rgb(42, 42, 42);
+  cursor: pointer;
+}
+
+.criteriaOption:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
